@@ -2,13 +2,14 @@
     <head>
         <meta charset="UTF-8">
         <title>ninja stuff</title>
-        <link type="text/css" rel="stylesheet" href="libraries/bootstrap-4.0.0-alpha.6-dist/css/bootstrap.css"/>
-        <link type="text/css" rel="stylesheet" href="style.css"/>
+        
 
         <script type="text/javascript" src="libraries/jquery-3.2.1.min.js"></script>
         <script type="text/javascript" src="libraries/tether-1.3.3/dist/js/tether.js"></script>
         <script type="text/javascript" src="libraries/bootstrap-4.0.0-alpha.6-dist/js/bootstrap.js"></script>
-
+        
+        <link type="text/css" rel="stylesheet" href="libraries/bootstrap-4.0.0-alpha.6-dist/css/bootstrap.css"/>
+        <link type="text/css" rel="stylesheet" href="style.css"/>
     </head>
     <body>
         <div class="monbloc container">

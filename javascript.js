@@ -1,11 +1,14 @@
 $("#envoyer").click(function () {
     console.log("je passe dans la fonction click");
-    $ajax({
+    
+    $.ajax({
         url: "traitement.php",
         type: "POST",
-        data: {"fonction": "ninja_name"},
+        data: {"fonction": "ninja_name",
+                nom: $('#nom').val(),
+                prenom: $('#prenom').val(),},
         success: function (result) {
-            $("#result").htlm(result);
+            $("#result").html(result);
         }
     }
     );
