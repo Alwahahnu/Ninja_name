@@ -1,6 +1,6 @@
 $("#envoyer").click(function () {
     console.log("je passe dans la fonction click");
-    $ajax({
+    $.ajax({
         url: "traitement.php",
         type: "POST",
         data: {"fonction": "ninja_name"},
